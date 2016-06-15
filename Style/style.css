@@ -1,21 +1,13 @@
-#complementos {
-    background-color: #25ff32;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-    display: table;
-    margin-top: 100px;
-    border: 1px solid #CCC;
-    border-radius: 4px;
+#container {
+  background-color: #25ff32;
+  width: 100%;
+  display: inline-block;
 }
 
-#bebidas {
-    background-color: cyan;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-    display: table;
-    margin-top: 100px;
-    border: 1px solid #CCC;
-    border-radius: 4px;
-} 
+#panelDerecho {
+
+}
+
+#up {
+
+}
