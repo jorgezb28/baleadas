@@ -1,13 +1,62 @@
+body {
+    background-color: #275A97
+}
 #container {
-  background-color: #25ff32;
-  width: 100%;
-  display: inline-block;
+    float: left;
+    width: 100%;
 }
-
+#complementos {
+    float: left;
+    width: 50%;
+}
 #panelDerecho {
-
+    float: left;
+    width: 50%;
+}
+#bebidas, #totales {
+    float: left;
+    width: 50%;
+}
+#botones {
+    float: none;
+}
+#tableBotones {
+    width: 75%;
+    padding: 1em;
+    text-align: center;
 }
 
-#up {
+#label{
+    color: #E6BE2D;
+    font-weight: bold;
+}
 
+#subtotal{
+    color: #FFE380;
+}
+#isv{
+    color: #F8D455;
+}
+
+#total{
+    color: #E6BE2D;
+    font-weight: bold;
+}
+
+p{
+    color: #FFF880;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+input[type=submit] {
+    border: 1px solid #fff;
+    color: #fff;
+    background: #f44c0e;
+    padding: 5px 5px;
+    border-radius: 3px;
+}
+input[type=submit]:hover {
+    background: #ee7346;
 }
